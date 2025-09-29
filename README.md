@@ -1,34 +1,51 @@
-# EverWish – Time Capsule
+# EverWish – Time Capsule 💌
 
-EverWish is a web application that enables users to create and preserve digital wishes (text, voice, and video) and schedule them for delivery on future dates.  
-It is designed as a secure, long-term time capsule for personal messages, memories, and legacy communication.
+EverWish is a web application that allows users to create and preserve digital wishes (text, voice, video) and schedule them for future delivery.  
+It acts as a secure, long-term time capsule for personal messages, memories, and legacy communication.
 
-**Live Demo:** [https://lovecapsule.vercel.app/](https://lovecapsule.vercel.app/)
-
----
-
-## Features
-
-- Create and store wishes in text, audio, or video format  
-- Schedule one-time or recurring deliveries for specific dates  
-- Recipient management with email/SMS delivery options  
-- Encrypted storage for private and secure access  
-- Notification system for scheduled deliveries  
-- Legacy mode to assign trusted contacts for account continuity  
+[Live Demo](https://lovecapsule.vercel.app/)  
 
 ---
 
-## Technology Stack
+## 🚀 Features
 
-- **Frontend:** Next.js (React), Tailwind CSS  
-- **Backend:** Node.js (Express/NestJS)  
-- **Database:** PostgreSQL, Redis (task scheduling)  
-- **Storage:** AWS S3 / Google Cloud Storage  
-- **Media Processing:** FFmpeg (transcoding and thumbnails)  
-- **Authentication:** JWT / OAuth (Google, GitHub, etc.)  
-- **Notifications:** SendGrid (Email), Twilio (SMS)  
+- Multi-format wishes: text, audio, video  
+- Schedule one-time or recurring deliveries  
+- Manage recipients with email/SMS delivery  
+- Encrypted storage for secure access  
+- Notifications for delivered wishes  
+- Legacy mode for trusted contacts  
 
 ---
 
-## Project Structure
+## 🖥️ Screenshots
 
+### Landing Page
+![Landing Page](./screenshots/landing.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Create Wish
+![Create Wish](./screenshots/create_wish.png)
+
+### Delivery Preview
+![Delivery Preview](./screenshots/delivery_preview.png)
+
+> *Screenshots are stored in the `screenshots` folder. Replace with your actual website screenshots.*
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer           | Technology                          |
+|-----------------|------------------------------------|
+| Frontend        | Next.js (React), Tailwind CSS       |
+| Backend         | Node.js (Express/NestJS)           |
+| Database        | PostgreSQL, Redis                   |
+| Storage         | AWS S3 / GCP                        |
+| Media Processing| FFmpeg                              |
+| Auth            | JWT / OAuth (Google, GitHub)       |
+| Notifications   | SendGrid (Email), Twilio (SMS)     |
+
+---
