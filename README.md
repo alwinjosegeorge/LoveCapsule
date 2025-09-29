@@ -3,7 +3,7 @@
 EverWish is a web application that enables users to create and preserve digital wishes (text, voice, and video) and schedule them for delivery on future dates.  
 It is designed as a secure, long-term time capsule for personal messages, memories, and legacy communication.
 
-**Live Demo:** [https://LoveCapsule.vercel.app](https://everwish-timecapsule.vercel.app)
+**Live Demo:** [https://lovecapsule.vercel.app/](https://lovecapsule.vercel.app/)
 
 ---
 
