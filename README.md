@@ -1,6 +1,6 @@
-# EverWish – Time Capsule 💌
+# LoveCapsule – Time Capsule 💌
 
-EverWish is a web application that allows users to create and preserve digital wishes (text, voice, video) and schedule them for future delivery.  
+LoveCapsule is a web application that allows users to create and preserve digital wishes (text, voice, video) and schedule them for future delivery.  
 It acts as a secure, long-term time capsule for personal messages, memories, and legacy communication.
 
 [Live Demo](https://lovecapsule.vercel.app/)  
@@ -20,19 +20,23 @@ It acts as a secure, long-term time capsule for personal messages, memories, and
 
 ## 🖥️ Screenshots
 
-### Landing Page
-![Landing Page](./screenshots/landing.png)
+### Home Page
+![Home](./screenshots/home.png)  
+![Home 2](./screenshots/home2.png)
+
+### Login Page
+![Login](./screenshots/loging.png)
 
 ### Dashboard
 ![Dashboard](./screenshots/dashboard.png)
 
 ### Create Wish
-![Create Wish](./screenshots/create_wish.png)
+![Create Wish 1](./screenshots/create_wish1.png)  
+![Create Wish 2](./screenshots/create_wish2.png)  
+![Create Wish 3](./screenshots/create_wish3.png)  
+![Create Wish 4](./screenshots/create_wish4.png)
 
-### Delivery Preview
-![Delivery Preview](./screenshots/delivery_preview.png)
-
-> *Screenshots are stored in the `screenshots` folder. Replace with your actual website screenshots.*
+> Screenshots are in the `screenshots` folder. Replace with updated images if needed.
 
 ---
 
