@@ -1,4 +1,4 @@
-# LoveCapsule – Time Capsule 💌
+# LoveCapsule – Time Capsule 💌 
 
 LoveCapsule is a web application that allows users to create and preserve digital wishes (text, voice, video) and schedule them for future delivery.  
 It acts as a secure, long-term time capsule for personal messages, memories, and legacy communication.
