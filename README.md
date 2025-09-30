@@ -53,3 +53,4 @@ It acts as a secure, long-term time capsule for personal messages, memories, and
 | Notifications   | SendGrid (Email), Twilio (SMS)     |
 
 ---
+
