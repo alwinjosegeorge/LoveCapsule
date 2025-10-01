@@ -1,4 +1,14 @@
-# LoveCapsule – Time Capsule 💌 
+<h1 align="center">💌 LoveCapsule</h1>
+
+<p align="center">
+  <a href="https://lovecapsule.vercel.app/" target="_blank">
+    <img src="1200x250 (1)" alt="Live Demo" width="600"/>
+  </a>
+</p>
+
+<p align="center">
+  <b>Click the image above to try the Live Demo 🚀</b>
+</p>
 
 LoveCapsule is a web application that allows users to create and preserve digital wishes (text, voice, video) and schedule them for future delivery.  
 It acts as a secure, long-term time capsule for personal messages, memories, and legacy communication.
