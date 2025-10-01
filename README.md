@@ -1,3 +1,9 @@
+<!-- demo.html (host on Vercel/GitHub Pages) -->
+<h2>LoveCapsule — Theme Song</h2>
+<audio controls>
+  <source src="/assets/song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 <h1 align="center">💌 LoveCapsule</h1>
 
