@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://lovecapsule.vercel.app/" target="_blank">
-    <img src="1200x250 (1)" alt="Live Demo.png" width="600"/>
+    <img src="1200x250 (1).png" alt="Live Demo" width="600"/>
   </a>
 </p>
 
