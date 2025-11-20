@@ -135,7 +135,7 @@ const CreateWish = () => {
                 <Label htmlFor="title" className="text-sm font-medium">Wish Title</Label>
                 <Input 
                   id="title" 
-                  placeholder="e.g., Happy Birthday Message for Sarah"
+                  placeholder="e.g., Happy Birthday Message for Alwin"
                   className="mt-1"
                 />
               </div>
