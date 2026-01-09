@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* EverWish Design System - Warm, emotional, and accessible
+All colors MUST be HSL for proper theming.
+*/
+
+@layer base {
+  :root {
+    /* Warm, emotional background with subtle gradients */
+    --background: 20 20% 98%;
+    --foreground: 225 15% 25%;
+
+    /* Card system with soft warmth */
+    --card: 20 30% 99%;
+    --card-foreground: 225 15% 25%;
+
+    /* Popover with gentle warmth */
+    --popover: 20 30% 99%;
+    --popover-foreground: 225 15% 25%;
+
+    /* Primary: Warm lavender for emotional connection */
+    --primary: 270 50% 65%;
+    --primary-foreground: 20 30% 99%;
+    --primary-glow: 270 60% 75%;
+
+    /* Secondary: Soft peach for warmth */
+    --secondary: 25 65% 85%;
+    --secondary-foreground: 225 15% 25%;
+
+    /* Muted: Gentle neutrals */
+    --muted: 20 15% 92%;
+    --muted-foreground: 225 10% 50%;
+
+    /* Accent: Gentle sage for growth and hope */
+    --accent: 150 25% 75%;
+    --accent-foreground: 225 15% 25%;
+
+    /* Destructive: Soft coral, not harsh */
+    --destructive: 10 70% 65%;
+    --destructive-foreground: 20 30% 99%;
+
+    /* Borders and inputs with warmth */
+    --border: 20 15% 88%;
+    --input: 20 15% 88%;
+    --ring: 270 50% 65%;
+
+    /* Success: Living green */
+    --success: 140 50% 60%;
+    --success-foreground: 20 30% 99%;
+
+    /* Warning: Golden warmth */
+    --warning: 45 85% 70%;
+    --warning-foreground: 225 15% 25%;
+
+    /* Gradients for emotional depth */
+    --gradient-sunset: linear-gradient(135deg, hsl(270 50% 65%), hsl(25 65% 75%));
+    --gradient-dawn: linear-gradient(180deg, hsl(270 30% 85%), hsl(20 20% 98%));
+    --gradient-warmth: linear-gradient(45deg, hsl(25 65% 85%), hsl(150 25% 85%));
+
+    /* Shadows for depth and emotion */
+    --shadow-soft: 0 4px 20px -4px hsl(270 50% 65% / 0.15);
+    --shadow-warm: 0 8px 30px -8px hsl(25 65% 65% / 0.2);
+    --shadow-glow: 0 0 40px hsl(270 60% 75% / 0.3);
+
+    /* Typography scale for accessibility */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+
+    /* Smooth animations */
+    --transition-gentle: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.2s ease-out;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode with warm undertones */
+    --background: 225 25% 8%;
+    --foreground: 20 30% 95%;
+
+    --card: 225 20% 12%;
+    --card-foreground: 20 30% 95%;
+
+    --popover: 225 20% 12%;
+    --popover-foreground: 20 30% 95%;
+
+    --primary: 270 60% 75%;
+    --primary-foreground: 225 25% 8%;
+    --primary-glow: 270 70% 85%;
+
+    --secondary: 25 30% 20%;
+    --secondary-foreground: 20 30% 95%;
+
+    --muted: 225 15% 18%;
+    --muted-foreground: 20 15% 70%;
+
+    --accent: 150 20% 35%;
+    --accent-foreground: 20 30% 95%;
+
+    --destructive: 10 60% 55%;
+    --destructive-foreground: 20 30% 95%;
+
+    --border: 225 15% 20%;
+    --input: 225 15% 20%;
+    --ring: 270 60% 75%;
+
+    --success: 140 40% 50%;
+    --success-foreground: 20 30% 95%;
+
+    --warning: 45 70% 60%;
+    --warning-foreground: 225 25% 8%;
+
+    /* Dark mode gradients */
+    --gradient-sunset: linear-gradient(135deg, hsl(270 60% 45%), hsl(25 40% 35%));
+    --gradient-dawn: linear-gradient(180deg, hsl(270 20% 15%), hsl(225 25% 8%));
+    --gradient-warmth: linear-gradient(45deg, hsl(25 30% 20%), hsl(150 20% 25%));
+
+    /* Dark shadows with color */
+    --shadow-soft: 0 4px 20px -4px hsl(270 60% 25% / 0.4);
+    --shadow-warm: 0 8px 30px -8px hsl(25 40% 15% / 0.5);
+    --shadow-glow: 0 0 40px hsl(270 70% 35% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Emotional typography for better readability */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold leading-tight;
+    letter-spacing: -0.025em;
+  }
+
+  /* Smooth focus styles */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer components {
+  /* Gradient backgrounds */
+  .bg-gradient-sunset {
+    background: var(--gradient-sunset);
+  }
+  
+  .bg-gradient-dawn {
+    background: var(--gradient-dawn);
+  }
+  
+  .bg-gradient-warmth {
+    background: var(--gradient-warmth);
+  }
+
+  /* Glass effect for cards */
+  .glass-card {
+    @apply backdrop-blur-sm bg-card/80 border border-border/50;
+    box-shadow: var(--shadow-soft);
+  }
+
+  /* Hero text with glow */
+  .text-glow {
+    text-shadow: 0 0 20px hsl(var(--primary-glow) / 0.3);
+  }
+}
