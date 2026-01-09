@@ -10,14 +10,7 @@
   <b>Click the image above to try the Live Demo 🚀</b>
 </p>
 
-<p align="center">
-  <a href="https://lovecapsule.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Website-Open-brightgreen?style=for-the-badge&logo=vercel">
-  </a>
-  <a href="https://github.com/alwinjosegeorge/LoveCapsule">
-    <img src="https://img.shields.io/badge/📦%20Source%20Code-GitHub-black?style=for-the-badge&logo=github">
-  </a>
-</p>
+
 
 ---
 
